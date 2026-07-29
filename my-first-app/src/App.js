@@ -4,7 +4,6 @@ import { useState } from "react";
 //add reset button
 function App() {
   const [counter, setCounter] = useState(0);
-  const [input, setInput] = useState(0);
   return (
     <div style={{ textAlign: "center", marginTop: "50px" }}>
       <h1>Hello, Fullstack developer!</h1>
